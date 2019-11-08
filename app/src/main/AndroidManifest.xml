@@ -13,8 +13,8 @@
         android:name="com.tac.Weathercast.CustomFontApp"
         android:allowBackup="true"
         android:fullBackupContent="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="Weathercast"
+        android:icon="@drawable/sun_logo"
+        android:label="My Weather App"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">

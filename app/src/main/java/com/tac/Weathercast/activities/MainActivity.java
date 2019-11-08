@@ -127,7 +127,7 @@ public class MainActivity extends BaseActivity implements LocationListener,Check
     private CollapsingToolbarLayout header;
 
     public String recentCityId="";
-    private String condition="Slightly humid with a gentle breeze in Lucknow.";
+    private String condition="Slightly humid with a gentle breeze in Manila.";
     private String wetaherArray[]={"Thunderstorm accompanied by gusty winds and lightning is expected in several parts.","Thunderstorm accompanied by gusty winds, rain and lightning is expected in several parts.","Heavy thunderstorm sounds, relaxing pouring rain & lightning.",
     "Thunderstorm accompanied by gusty winds and lightning is expected in several parts.","Snow falling soundlessly in the middle of the night will always fill my heart with sweet clarity.","And when it rains on your parade, look up rather than down. Without the rain, there would be no rainbow.",
     "Some people feel the rain. Others just get wet.","I saw old autumn in the misty morn Stand shadowless like silence, listening To silence.","DUST STORM TO DETERIORATE AIR QUALITY IN SEVERAL REGION.",
@@ -233,7 +233,7 @@ public class MainActivity extends BaseActivity implements LocationListener,Check
         searchView.setOnQueryTextListener(new MaterialSearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String query) {
-                //Do some magic
+
                 new FindCitiesByNameTask(getApplicationContext(),
                         MainActivity.this, progressDialog).execute("city", query);
                 return false;
@@ -241,7 +241,7 @@ public class MainActivity extends BaseActivity implements LocationListener,Check
 
             @Override
             public boolean onQueryTextChange(String newText) {
-                //Do some magic
+
                 return false;
             }
         });

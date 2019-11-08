@@ -16,11 +16,11 @@ public class ShowRoundDialogFragment extends RoundedBottomSheet {
 
 
     TextView graph, locdetect, settings, about,share,refresh;
-    private CheckRefreshClickListener mCheckGraphListener;
+//    private CheckRefreshClickListener mCheckGraphListener;
     private CheckRefreshClickListener mCheckAutoDetectListener;
     private CheckRefreshClickListener mCheckSettingsListener;
     private CheckRefreshClickListener mCheckAboutListener;
-    private CheckRefreshClickListener mCheckShareListener;
+//    private CheckRefreshClickListener mCheckShareListener;
     private CheckRefreshClickListener mCheckRefresh;
     public static ShowRoundDialogFragment newInstance() {
         return new ShowRoundDialogFragment();
@@ -30,10 +30,10 @@ public class ShowRoundDialogFragment extends RoundedBottomSheet {
     public void onAttach(Context context) {
         super.onAttach(context);
 
-        mCheckGraphListener = (CheckRefreshClickListener) context;
+//        mCheckGraphListener = (CheckRefreshClickListener) context;
         mCheckSettingsListener = (CheckRefreshClickListener) context;
         mCheckAboutListener = (CheckRefreshClickListener) context;
-        mCheckShareListener = (CheckRefreshClickListener) context;
+//        mCheckShareListener = (CheckRefreshClickListener) context;
         mCheckAutoDetectListener=(CheckRefreshClickListener)context;
         mCheckRefresh=(CheckRefreshClickListener)context;
     }
@@ -50,17 +50,17 @@ public class ShowRoundDialogFragment extends RoundedBottomSheet {
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
-        graph = getView().findViewById(R.id.graph);
+//        graph = getView().findViewById(R.id.graph);
         locdetect = getView().findViewById(R.id.locationup);
         settings = getView().findViewById(R.id.settings);
         about = getView().findViewById(R.id.about);
-        share = getView().findViewById(R.id.share);
+//        share = getView().findViewById(R.id.share);
         refresh=getView().findViewById(R.id.refresh);
-        graph.setOnClickListener(v -> mCheckGraphListener.onGraphClick());
+//        graph.setOnClickListener(v -> mCheckGraphListener.onGraphClick());
         locdetect.setOnClickListener(v -> mCheckAutoDetectListener.onUpdateClick());
         settings.setOnClickListener(v -> mCheckSettingsListener.onSettingsClick());
         about.setOnClickListener(v -> mCheckAboutListener.onAboutClick());
-        share.setOnClickListener(v -> mCheckShareListener.onShareClick());
+//        share.setOnClickListener(v -> mCheckShareListener.onShareClick());
         refresh.setOnClickListener(v->mCheckRefresh.onRefresh());
         super.onViewCreated(view, savedInstanceState);
 

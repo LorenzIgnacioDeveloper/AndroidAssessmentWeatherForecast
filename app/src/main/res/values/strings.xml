@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Weathercast</string>
+    <string name="app_name">My Weather App</string>
 
     <string name="action_search">Search</string>
     <string name="action_refresh">Refresh</string>
@@ -88,10 +88,10 @@
     <string name="dialog_ok">OK</string>
     <string name="dialog_cancel">Cancel</string>
 
-    <string name="msg_err_parsing_json">Connection timeout.</string>
+    <string name="msg_err_parsing_json">City is not found.</string>
     <string name="msg_connection_problem">There is a problem with your internet connection.</string>
     <string name="msg_connection_not_available">Connection not available.</string>
-    <string name="msg_city_not_found">Specified city is not found.</string>
+    <string name="msg_city_not_found">City is not found.</string>
 
     <string name="weather_sunny" translatable="false">&#xf00d;</string>
     <string name="weather_clear_night" translatable="false">&#xf02e;</string>
@@ -142,7 +142,7 @@
     <string name="temperature">Temperature</string>
     <string name="action_graphs">Graphs</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="app_sign_name">Weathercast</string>
+    <string name="app_sign_name">My Weather App</string>
     <string name="pref_previously_started" />
     <string name="permission_request_denied">Permission request denied</string>
     <string name="error_gif">x or y bound size should be at least %1$dpx and file size should be no more than %2$sM</string>

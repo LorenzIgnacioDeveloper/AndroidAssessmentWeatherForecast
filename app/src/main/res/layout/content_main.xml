@@ -58,7 +58,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text="More Info"
+                android:text="Swipe Me Up"
                 android:textStyle="normal"
                 style="@style/Theme.MaterialComponents.Light"
                 android:layout_marginTop="30dp"
@@ -88,9 +88,9 @@
                             android:layout_width="55dp"
                             android:layout_height="55dp"
                             android:padding="15dp"
-                            android:background="@drawable/circleblue"
+                            android:background="@drawable/circle_wind"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/ic_weather_windy_white_24dp"/>
+                            />
 
 
 
@@ -121,9 +121,8 @@
                             android:layout_width="55dp"
                             android:layout_height="55dp"
                             android:padding="15dp"
-                            android:background="@drawable/circlered"
-                            android:scaleType="centerCrop"
-                            android:src="@drawable/pressure"/>
+                            android:background="@drawable/circle_barometer"
+                            android:scaleType="centerCrop"/>
 
 
                     <TextView
@@ -150,9 +149,8 @@
                             android:layout_width="55dp"
                             android:layout_height="55dp"
                             android:padding="15dp"
-                            android:background="@drawable/circleyellow"
-                            android:scaleType="centerCrop"
-                            android:src="@drawable/humidity"/>
+                            android:background="@drawable/circle_humidity"
+                            android:scaleType="centerCrop"/>
 
 
                     <TextView
@@ -179,9 +177,8 @@
                             android:layout_width="55dp"
                             android:layout_height="55dp"
                             android:padding="15dp"
-                            android:background="@drawable/circlegreen"
-                            android:scaleType="centerCrop"
-                            android:src="@drawable/uv"/>
+                            android:background="@drawable/circle_hot"
+                            android:scaleType="centerCrop"/>
 
 
                     <TextView
@@ -260,7 +257,7 @@
                     android:layout_height="50dp"
                     android:padding="12dp"
                     android:background="@color/gpurple"
-                    android:src="@drawable/sunset"
+                    android:src="@drawable/sun_logo"
                     />
 
             <TextView
@@ -304,7 +301,7 @@
             android:paddingBottom="10dp"
             android:paddingStart="5dp"
             android:layout_marginTop="40dp"
-            android:background="@drawable/rain">
+            android:background="@drawable/banner">
 
         <android.support.design.widget.TabLayout
             android:id="@+id/tabs"

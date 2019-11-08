@@ -11,7 +11,7 @@
             android:id="@+id/blackicon"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="5dp"
-            android:src="@drawable/sunset"/>
+            android:src="@drawable/sun_logo"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -24,7 +24,7 @@
             android:layout_gravity="center"
             android:id="@+id/appname"
             android:textColor="#000"
-            android:text="Weathercast 1.0"/>
+            android:text="My Weather App"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -36,7 +36,7 @@
             android:layout_gravity="center"
             android:id="@+id/compname"
             android:textColor="#000"
-            android:text="The Absolute Company \u00AE"/>
+            android:text="For Assessment Only!"/>
 
 
 

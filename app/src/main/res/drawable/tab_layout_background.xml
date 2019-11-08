@@ -11,6 +11,6 @@
 
     <!-- TabLayout background color -->
     <solid
-        android:color="#004ecb"/>
+        android:color="#01579B"/>
 
 </shape>

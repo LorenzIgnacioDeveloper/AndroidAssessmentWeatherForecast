@@ -22,7 +22,7 @@
                 android:id="@+id/accountpic"
                 android:clickable="true"
                 android:layout_marginTop="10dp"
-                android:src="@drawable/sunset"
+                android:src="@drawable/sun_logo"
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"/>
 
@@ -54,7 +54,7 @@
                 android:layout_marginEnd="@dimen/dp_16"
                 android:layout_marginStart="@dimen/dp_16"
                 android:clickable="true"
-                android:text="thecompanyabsolute@gmail.com"
+                android:text="lorenz.a.m.ignacio@accenture.com"
                 android:textColor="@color/grey_800"
                 android:textSize="13sp" />
         </LinearLayout>
@@ -85,22 +85,22 @@
 
 
 
-    <TextView
-        android:id="@+id/graph"
-        android:paddingLeft="22dp"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/dp_48"
-        android:layout_marginEnd="@dimen/dp_16"
-        android:layout_marginStart="@dimen/dp_16"
-        android:clickable="true"
-        android:background="@drawable/ripple_text"
-        android:drawablePadding="@dimen/dp_32"
-        android:drawableStart="@drawable/graphs"
-        android:drawableTint="#505050"
-        android:gravity="start|center_vertical"
-        android:text="Graphs"
-        android:textColor="@color/black"
-        android:textSize="14sp" />
+<!--    <TextView-->
+<!--        android:id="@+id/graph"-->
+<!--        android:paddingLeft="22dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="@dimen/dp_48"-->
+<!--        android:layout_marginEnd="@dimen/dp_16"-->
+<!--        android:layout_marginStart="@dimen/dp_16"-->
+<!--        android:clickable="true"-->
+<!--        android:background="@drawable/ripple_text"-->
+<!--        android:drawablePadding="@dimen/dp_32"-->
+<!--        android:drawableStart="@drawable/graphs"-->
+<!--        android:drawableTint="#505050"-->
+<!--        android:gravity="start|center_vertical"-->
+<!--        android:text="Graphs"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="14sp" />-->
 
 
     <TextView
@@ -138,22 +138,22 @@
         android:textColor="@color/black"
         android:textSize="14sp" />
 
-    <TextView
-        android:id="@+id/share"
-        android:paddingLeft="22dp"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/dp_48"
-        android:layout_marginEnd="@dimen/dp_16"
-        android:layout_marginStart="@dimen/dp_16"
-        android:background="@drawable/ripple_text"
-        android:clickable="true"
-        android:drawablePadding="@dimen/dp_32"
-        android:drawableStart="@drawable/share"
-        android:drawableTint="#505050"
-        android:gravity="start|center_vertical"
-        android:text="Share"
-        android:textColor="@color/black"
-        android:textSize="14sp" />
+<!--    <TextView-->
+<!--        android:id="@+id/share"-->
+<!--        android:paddingLeft="22dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="@dimen/dp_48"-->
+<!--        android:layout_marginEnd="@dimen/dp_16"-->
+<!--        android:layout_marginStart="@dimen/dp_16"-->
+<!--        android:background="@drawable/ripple_text"-->
+<!--        android:clickable="true"-->
+<!--        android:drawablePadding="@dimen/dp_32"-->
+<!--        android:drawableStart="@drawable/share"-->
+<!--        android:drawableTint="#505050"-->
+<!--        android:gravity="start|center_vertical"-->
+<!--        android:text="Share"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="14sp" />-->
 
     <TextView
         android:id="@+id/about"
